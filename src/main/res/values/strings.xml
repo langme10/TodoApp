@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CSE476Project</string>
+    <string name="testing">Trevors 4th test</string>
+    <string name="login_image_desc">Illustration of MSU for landing page</string>
+
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="directionButton">Directions</string>
+    <string name="bike">Bicycle</string>
+    <string name="walk">Walk</string>
+    <string name="car">Car</string>
+    <string name="exception">Failed to communicate with geolocation services</string>
+    <string name="couldnotfind">Unable to locate address</string>
+    <string name="exceptionNoLocation">No location was provided</string>
+</resources>

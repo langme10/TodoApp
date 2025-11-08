@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultColor">#F5F5F5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="pastel_red">#FFC1C1</color>
+    <color name="pastel_pink">#FFD1DC</color>
+    <color name="pastel_blue">#C1DFFF</color>
+    <color name="pastel_green">#C1FFC1</color>
+    <color name="pastel_yellow">#FFFFC1</color>
+    <color name="pastel_purple">#E1C1FF</color>
+
+    <color name="dark_green">#18453B</color>
+    <color name="green">#18453B</color> <!-- MSU Dark Green -->
+    <color name="light_green_bg">#F2F8F5</color>   <!-- Almost white  green -->
+    <color name="accent_green">#A8BDA3</color>     <!-- For tints  -->
+    <color name="light_gray">#DDDDDD</color>
+
+</resources>

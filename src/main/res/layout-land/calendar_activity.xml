@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Left side: Calendar -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <!-- Right side: Selected date's assignments -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingStart="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDateDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assignments for: "
+                android:textSize="18sp"
+                android:padding="8dp"/>
+
+            <!-- You can dynamically add assignment cards here -->
+            <!-- Example dummy assignment -->
+            <TextView
+                android:id="@+id/assignmentExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Linear Algebra HW 5"
+                android:padding="8dp"
+                android:background="#FFFFE0"
+                android:elevation="2dp"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
